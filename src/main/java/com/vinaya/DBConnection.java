@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/bugtracker_db";
-    private static final String USER = "root"; // change if needed
-    private static final String PASS = "Vini@12"; // change to your MySQL password
+    private static final String USER = "root"; 
+    private static final String PASS = "******"; 
 
     public static Connection getConnection() {
         try {
